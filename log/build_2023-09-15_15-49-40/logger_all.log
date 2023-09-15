@@ -1,0 +1,413 @@
+[0.387s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.387s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f51141100d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f51141100d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5114110610>)
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.431s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/poom/ieee_ws'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extension 'ros'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extensions ['cmake', 'python']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extension 'cmake'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(backup/xicro_arduino) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/docs/pic) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_interfaces) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Xicro/xicro_interfaces' with type 'ros.ament_cmake' and name 'xicro_interfaces'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/Xicro/xicro_pkg) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Xicro/xicro_pkg' with type 'ros.ament_cmake' and name 'xicro_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ieee_pkg) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ieee_pkg' with type 'ros.ament_python' and name 'ieee_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/webcam_pkg) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webcam_pkg' with type 'ros.ament_python' and name 'webcam_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(xicro_arduino) by extension 'python_setup_py'
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.490s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/poom/ieee_ws/install
+[0.492s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/galactic
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'cmake_target' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'ieee_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] DEBUG:colcon.colcon_core.verb:Building package 'ieee_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/poom/ieee_ws/build/ieee_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/poom/ieee_ws/install/ieee_pkg', 'merge_install': False, 'path': '/home/poom/ieee_ws/src/ieee_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'webcam_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'webcam_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/poom/ieee_ws/build/webcam_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/poom/ieee_ws/install/webcam_pkg', 'merge_install': False, 'path': '/home/poom/ieee_ws/src/webcam_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xicro_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] DEBUG:colcon.colcon_core.verb:Building package 'xicro_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/poom/ieee_ws/build/xicro_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/poom/ieee_ws/install/xicro_interfaces', 'merge_install': False, 'path': '/home/poom/ieee_ws/src/Xicro/xicro_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'cmake_target' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'xicro_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.593s] DEBUG:colcon.colcon_core.verb:Building package 'xicro_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/poom/ieee_ws/build/xicro_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/poom/ieee_ws/install/xicro_pkg', 'merge_install': False, 'path': '/home/poom/ieee_ws/src/Xicro/xicro_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.594s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.599s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/poom/ieee_ws/src/ieee_pkg' with build type 'ament_python'
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('ieee_pkg', 'ament_prefix_path')
+[0.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/hook/ament_prefix_path.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/hook/ament_prefix_path.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/hook/ament_prefix_path.sh'
+[0.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.614s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/poom/ieee_ws/src/webcam_pkg' with build type 'ament_python'
+[0.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('webcam_pkg', 'ament_prefix_path')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/hook/ament_prefix_path.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/hook/ament_prefix_path.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/hook/ament_prefix_path.sh'
+[0.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/poom/ieee_ws/src/Xicro/xicro_interfaces' with build type 'ament_cmake'
+[0.627s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/poom/ieee_ws/src/Xicro/xicro_interfaces'
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.639s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/poom/ieee_ws/src/Xicro/xicro_pkg' with build type 'ament_cmake'
+[0.639s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/poom/ieee_ws/src/Xicro/xicro_pkg'
+[0.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.926s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/poom/ieee_ws/src/ieee_pkg'
+[0.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/poom/ieee_ws/src/webcam_pkg'
+[1.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/poom/ieee_ws/build/xicro_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --build /home/poom/ieee_ws/build/xicro_interfaces -- -j12 -l12
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/poom/ieee_ws/build/xicro_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --build /home/poom/ieee_ws/build/xicro_pkg -- -j12 -l12
+[1.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/poom/ieee_ws/build/xicro_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --build /home/poom/ieee_ws/build/xicro_interfaces -- -j12 -l12
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/poom/ieee_ws/build/xicro_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --install /home/poom/ieee_ws/build/xicro_interfaces
+[1.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xicro_interfaces)
+[1.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/poom/ieee_ws/build/xicro_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --install /home/poom/ieee_ws/build/xicro_interfaces
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces' for CMake module files
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces' for CMake config files
+[1.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_interfaces', 'cmake_prefix_path')
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/cmake_prefix_path.ps1'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/cmake_prefix_path.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/cmake_prefix_path.sh'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/lib'
+[1.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_interfaces', 'ld_library_path_lib')
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/ld_library_path_lib.ps1'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/ld_library_path_lib.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/ld_library_path_lib.sh'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/bin'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/lib/pkgconfig/xicro_interfaces.pc'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/lib/python3.8/site-packages'
+[1.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_interfaces', 'pythonpath')
+[1.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/pythonpath.ps1'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/pythonpath.dsv'
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/pythonpath.sh'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/bin'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.ps1'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.dsv'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.sh'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.bash'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.zsh'
+[1.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/poom/ieee_ws/install/xicro_interfaces/share/colcon-core/packages/xicro_interfaces)
+[1.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xicro_interfaces)
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces' for CMake module files
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces' for CMake config files
+[1.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_interfaces', 'cmake_prefix_path')
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/cmake_prefix_path.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/cmake_prefix_path.dsv'
+[1.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/cmake_prefix_path.sh'
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/lib'
+[1.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_interfaces', 'ld_library_path_lib')
+[1.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/ld_library_path_lib.ps1'
+[1.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/ld_library_path_lib.dsv'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/ld_library_path_lib.sh'
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/bin'
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/lib/pkgconfig/xicro_interfaces.pc'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/lib/python3.8/site-packages'
+[1.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_interfaces', 'pythonpath')
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/pythonpath.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/pythonpath.dsv'
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/hook/pythonpath.sh'
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_interfaces/bin'
+[1.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.dsv'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.sh'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.bash'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_interfaces/share/xicro_interfaces/package.zsh'
+[1.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/poom/ieee_ws/install/xicro_interfaces/share/colcon-core/packages/xicro_interfaces)
+[1.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/poom/ieee_ws/build/xicro_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --build /home/poom/ieee_ws/build/xicro_pkg -- -j12 -l12
+[1.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/poom/ieee_ws/build/xicro_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --install /home/poom/ieee_ws/build/xicro_pkg
+[1.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/poom/ieee_ws/src/ieee_pkg': PYTHONPATH=/home/poom/ieee_ws/build/ieee_pkg/prefix_override:/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ieee_pkg build --build-base /home/poom/ieee_ws/build/ieee_pkg/build install --record /home/poom/ieee_ws/build/ieee_pkg/install.log --single-version-externally-managed
+[1.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xicro_pkg)
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg' for CMake module files
+[1.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/poom/ieee_ws/build/xicro_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --install /home/poom/ieee_ws/build/xicro_pkg
+[1.895s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg' for CMake config files
+[1.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_pkg', 'cmake_prefix_path')
+[1.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/cmake_prefix_path.ps1'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/cmake_prefix_path.dsv'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/cmake_prefix_path.sh'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/lib'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/bin'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/lib/pkgconfig/xicro_pkg.pc'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages'
+[1.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_pkg', 'pythonpath')
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/pythonpath.ps1'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/pythonpath.dsv'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/pythonpath.sh'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/bin'
+[1.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.ps1'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.sh'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.bash'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.zsh'
+[1.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/poom/ieee_ws/install/xicro_pkg/share/colcon-core/packages/xicro_pkg)
+[1.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/poom/ieee_ws/src/webcam_pkg': PYTHONPATH=/home/poom/ieee_ws/build/webcam_pkg/prefix_override:/home/poom/ieee_ws/install/webcam_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webcam_pkg build --build-base /home/poom/ieee_ws/build/webcam_pkg/build install --record /home/poom/ieee_ws/build/webcam_pkg/install.log --single-version-externally-managed
+[1.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xicro_pkg)
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg' for CMake module files
+[1.962s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg' for CMake config files
+[1.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_pkg', 'cmake_prefix_path')
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/cmake_prefix_path.ps1'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/cmake_prefix_path.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/cmake_prefix_path.sh'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/lib'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/bin'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/lib/pkgconfig/xicro_pkg.pc'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages'
+[1.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('xicro_pkg', 'pythonpath')
+[1.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/pythonpath.ps1'
+[1.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/pythonpath.dsv'
+[1.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/hook/pythonpath.sh'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/xicro_pkg/bin'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.sh'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.bash'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.zsh'
+[1.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/poom/ieee_ws/install/xicro_pkg/share/colcon-core/packages/xicro_pkg)
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/ieee_pkg' for CMake module files
+[2.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/poom/ieee_ws/src/ieee_pkg' returned '0': PYTHONPATH=/home/poom/ieee_ws/build/ieee_pkg/prefix_override:/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ieee_pkg build --build-base /home/poom/ieee_ws/build/ieee_pkg/build install --record /home/poom/ieee_ws/build/ieee_pkg/install.log --single-version-externally-managed
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/ieee_pkg' for CMake config files
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/ieee_pkg/lib'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/ieee_pkg/bin'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/ieee_pkg/lib/pkgconfig/ieee_pkg.pc'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages'
+[2.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('ieee_pkg', 'pythonpath')
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/hook/pythonpath.ps1'
+[2.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/hook/pythonpath.dsv'
+[2.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/hook/pythonpath.sh'
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/ieee_pkg/bin'
+[2.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ieee_pkg)
+[2.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/package.ps1'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/package.dsv'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/package.sh'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/package.bash'
+[2.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg/package.zsh'
+[2.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/poom/ieee_ws/install/ieee_pkg/share/colcon-core/packages/ieee_pkg)
+[2.355s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/webcam_pkg' for CMake module files
+[2.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/poom/ieee_ws/src/webcam_pkg' returned '0': PYTHONPATH=/home/poom/ieee_ws/build/webcam_pkg/prefix_override:/home/poom/ieee_ws/install/webcam_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webcam_pkg build --build-base /home/poom/ieee_ws/build/webcam_pkg/build install --record /home/poom/ieee_ws/build/webcam_pkg/install.log --single-version-externally-managed
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/webcam_pkg' for CMake config files
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/webcam_pkg/lib'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/webcam_pkg/bin'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/webcam_pkg/lib/pkgconfig/webcam_pkg.pc'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/webcam_pkg/lib/python3.8/site-packages'
+[2.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('webcam_pkg', 'pythonpath')
+[2.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/hook/pythonpath.ps1'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/hook/pythonpath.dsv'
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/hook/pythonpath.sh'
+[2.359s] Level 1:colcon.colcon_core.environment:checking '/home/poom/ieee_ws/install/webcam_pkg/bin'
+[2.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webcam_pkg)
+[2.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/package.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/package.dsv'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/package.sh'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/package.bash'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/poom/ieee_ws/install/webcam_pkg/share/webcam_pkg/package.zsh'
+[2.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/poom/ieee_ws/install/webcam_pkg/share/colcon-core/packages/webcam_pkg)
+[2.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.364s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.365s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.372s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.387s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/poom/ieee_ws/install/local_setup.ps1'
+[2.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/poom/ieee_ws/install/_local_setup_util_ps1.py'
+[2.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/poom/ieee_ws/install/setup.ps1'
+[2.394s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/poom/ieee_ws/install/local_setup.sh'
+[2.394s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/poom/ieee_ws/install/_local_setup_util_sh.py'
+[2.395s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/poom/ieee_ws/install/setup.sh'
+[2.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/poom/ieee_ws/install/local_setup.bash'
+[2.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/poom/ieee_ws/install/setup.bash'
+[2.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/poom/ieee_ws/install/local_setup.zsh'
+[2.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/poom/ieee_ws/install/setup.zsh'

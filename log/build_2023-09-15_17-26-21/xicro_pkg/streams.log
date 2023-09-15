@@ -1,0 +1,46 @@
+[0.552s] Invoking command in '/home/poom/ieee_ws/build/xicro_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --build /home/poom/ieee_ws/build/xicro_pkg -- -j12 -l12
+[0.612s] Built target ament_cmake_python_copy_xicro_pkg
+[0.962s] running egg_info
+[0.963s] writing xicro_pkg.egg-info/PKG-INFO
+[0.963s] writing dependency_links to xicro_pkg.egg-info/dependency_links.txt
+[0.963s] writing top-level names to xicro_pkg.egg-info/top_level.txt
+[1.002s] reading manifest file 'xicro_pkg.egg-info/SOURCES.txt'
+[1.003s] writing manifest file 'xicro_pkg.egg-info/SOURCES.txt'
+[1.026s] Built target ament_cmake_python_build_xicro_pkg_egg
+[1.033s] Invoked command in '/home/poom/ieee_ws/build/xicro_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --build /home/poom/ieee_ws/build/xicro_pkg -- -j12 -l12
+[1.081s] Invoking command in '/home/poom/ieee_ws/build/xicro_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --install /home/poom/ieee_ws/build/xicro_pkg
+[1.110s] -- Install configuration: ""
+[1.110s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/environment/pythonpath.sh
+[1.110s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/environment/pythonpath.dsv
+[1.110s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages//xicro_pkg.egg-info
+[1.110s] -- Installing: /home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages//xicro_pkg.egg-info/top_level.txt
+[1.110s] -- Installing: /home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages//xicro_pkg.egg-info/PKG-INFO
+[1.110s] -- Installing: /home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages//xicro_pkg.egg-info/dependency_links.txt
+[1.110s] -- Installing: /home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages//xicro_pkg.egg-info/SOURCES.txt
+[1.111s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages/xicro_pkg
+[1.111s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages/xicro_pkg/__init__.py
+[1.149s] Listing '/home/poom/ieee_ws/install/xicro_pkg/lib/python3.8/site-packages/xicro_pkg'...
+[1.153s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/lib/xicro_pkg/generate_library.py
+[1.153s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/lib/xicro_pkg/generate_xicro_node.py
+[1.153s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/lib/xicro_pkg/xicro_node_ieee_ID_1_esp.py
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/config
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/config/.library_cpp_preSetup.xicro
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/config/.Xicro_node_preSetup.xicro
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/config/setup_xicro.yaml
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/config/.library_h_preSetup.xicro
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/ament_index/resource_index/package_run_dependencies/xicro_pkg
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/ament_index/resource_index/parent_prefix_path/xicro_pkg
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/environment/ament_prefix_path.sh
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/environment/ament_prefix_path.dsv
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/environment/path.sh
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/environment/path.dsv
+[1.154s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/local_setup.bash
+[1.155s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/local_setup.sh
+[1.155s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/local_setup.zsh
+[1.155s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/local_setup.dsv
+[1.155s] -- Installing: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.dsv
+[1.155s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/ament_index/resource_index/packages/xicro_pkg
+[1.155s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/cmake/xicro_pkgConfig.cmake
+[1.155s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/cmake/xicro_pkgConfig-version.cmake
+[1.155s] -- Up-to-date: /home/poom/ieee_ws/install/xicro_pkg/share/xicro_pkg/package.xml
+[1.160s] Invoked command in '/home/poom/ieee_ws/build/xicro_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/poom/ieee_ws/install/webcam_pkg:/home/poom/ieee_ws/install/ieee_pkg:/opt/ros/galactic /home/poom/.local/bin/cmake --install /home/poom/ieee_ws/build/xicro_pkg
