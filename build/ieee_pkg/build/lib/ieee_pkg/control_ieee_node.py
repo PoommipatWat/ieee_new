@@ -120,17 +120,17 @@ class control(Node):
                     self.yaw += 360
                     s = 2
             
-            error = abs(self.yaw - self.target)/abs(self.target)
+            error = (abs(self.yaw - self.target))/90/1.5
             
             if self.com == "Turn Left":
-                msg = self.mechanum(0,0,((-0.92*error)-self.init_pwm))
+                msg = self.mechanum(0,0,((-1*error)-self.init_pwm))
             elif self.com == "Turn Right":
-                msg = self.mechanum(0,0,(0.23*error))
+                msg = self.mechanum(0,0,(1*error))
             elif self.com == "Turn Around":
                 if self.target >= 180:
-                    msg = self.mechanum(0,0,(-0.92*error)-self.init_pwm)
+                    msg = self.mechanum(0,0,(-1*error)-self.init_pwm)
                 else:
-                    msg = self.mechanum(0,0,(0.23*error)+self.init_pwm)
+                    msg = self.mechanum(0,0,(1*error)+self.init_pwm)
                     
             self._logger.info(f"yaw: {self.yaw}, target: {self.target}, state: {self.state}, com: {s}")
             
@@ -152,7 +152,6 @@ class control(Node):
             self._logger.info("i am in state 2")
             
         # elif self.state == 0 and self.command_webcam == "No QR code detected" and self.ultrasonic <= 30:
-            
         #     msg = self.mechanum(0,0,0)
         #     if self.t0_once:
         #         self.t0 = time.time()
@@ -162,18 +161,13 @@ class control(Node):
         #         self.state = 11
         #         self.t0_once = True
                 
-                
-                
-            
         # elif self.state == 11:
-        #     msg = self.mechanum(0.75,0,0)
+        #     msg = self.mechanum(0.6,0,0)
         #     if self.ultrasonic >= 1:
         #         self.state = 12
                 
-
         # elif self.state == 12:
-            
-        #     msg = self.mechanum(0.75,0,0)
+        #     msg = self.mechanum(0.6,0,0)
         #     if self.t0_once:
         #         self.t0 = time.time()
         #         self.t0_once = False
@@ -181,7 +175,6 @@ class control(Node):
         #     if time.time() - self.t0 >= 2:
         #         self.state = 0
         #         self.t0_once = True
-                
                 
         elif self.state == 0:
             msg = self.mechanum(0.6,0,0)
