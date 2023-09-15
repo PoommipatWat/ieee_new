@@ -1,0 +1,3 @@
+[console_scripts]
+control_ieee_node = ieee_pkg.control_ieee_node:main
+

@@ -1,0 +1,21 @@
+[0.792s] Invoking command in '/home/poom/ieee_ws/src/webcam_pkg': PYTHONPATH=/home/poom/ieee_ws/build/webcam_pkg/prefix_override:/home/poom/ieee_ws/install/webcam_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webcam_pkg build --build-base /home/poom/ieee_ws/build/webcam_pkg/build install --record /home/poom/ieee_ws/build/webcam_pkg/install.log --single-version-externally-managed
+[0.971s] running egg_info
+[0.971s] writing ../../build/webcam_pkg/webcam_pkg.egg-info/PKG-INFO
+[0.972s] writing dependency_links to ../../build/webcam_pkg/webcam_pkg.egg-info/dependency_links.txt
+[0.972s] writing entry points to ../../build/webcam_pkg/webcam_pkg.egg-info/entry_points.txt
+[0.972s] writing requirements to ../../build/webcam_pkg/webcam_pkg.egg-info/requires.txt
+[0.972s] writing top-level names to ../../build/webcam_pkg/webcam_pkg.egg-info/top_level.txt
+[0.999s] reading manifest file '../../build/webcam_pkg/webcam_pkg.egg-info/SOURCES.txt'
+[0.999s] writing manifest file '../../build/webcam_pkg/webcam_pkg.egg-info/SOURCES.txt'
+[0.999s] running build
+[0.999s] running build_py
+[0.999s] running install
+[0.999s] running install_lib
+[0.999s] running install_data
+[1.000s] running install_egg_info
+[1.003s] removing '/home/poom/ieee_ws/install/webcam_pkg/lib/python3.8/site-packages/webcam_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.003s] Copying ../../build/webcam_pkg/webcam_pkg.egg-info to /home/poom/ieee_ws/install/webcam_pkg/lib/python3.8/site-packages/webcam_pkg-0.0.0-py3.8.egg-info
+[1.003s] running install_scripts
+[1.013s] Installing webcam_node script to /home/poom/ieee_ws/install/webcam_pkg/lib/webcam_pkg
+[1.013s] writing list of installed files to '/home/poom/ieee_ws/build/webcam_pkg/install.log'
+[1.031s] Invoked command in '/home/poom/ieee_ws/src/webcam_pkg' returned '0': PYTHONPATH=/home/poom/ieee_ws/build/webcam_pkg/prefix_override:/home/poom/ieee_ws/install/webcam_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/webcam_pkg build --build-base /home/poom/ieee_ws/build/webcam_pkg/build install --record /home/poom/ieee_ws/build/webcam_pkg/install.log --single-version-externally-managed
