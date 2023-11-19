@@ -1,5 +1,0 @@
-  File "/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg/control_ieee_node.py", line 111
-    self._logger.info(f"yaw: {self.yaw}, target: {self.target}, state: {self.state}, com: {self.com})
-                                                                                                    ^
-SyntaxError: EOL while scanning string literal
-

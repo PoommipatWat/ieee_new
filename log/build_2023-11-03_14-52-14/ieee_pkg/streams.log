@@ -1,0 +1,24 @@
+[1.062s] Invoking command in '/home/poom/ieee_ws/src/ieee_pkg': PYTHONPATH=/home/poom/ieee_ws/build/ieee_pkg/prefix_override:/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ieee_pkg build --build-base /home/poom/ieee_ws/build/ieee_pkg/build install --record /home/poom/ieee_ws/build/ieee_pkg/install.log --single-version-externally-managed
+[1.252s] running egg_info
+[1.252s] writing ../../build/ieee_pkg/ieee_pkg.egg-info/PKG-INFO
+[1.253s] writing dependency_links to ../../build/ieee_pkg/ieee_pkg.egg-info/dependency_links.txt
+[1.253s] writing entry points to ../../build/ieee_pkg/ieee_pkg.egg-info/entry_points.txt
+[1.253s] writing requirements to ../../build/ieee_pkg/ieee_pkg.egg-info/requires.txt
+[1.253s] writing top-level names to ../../build/ieee_pkg/ieee_pkg.egg-info/top_level.txt
+[1.277s] reading manifest file '../../build/ieee_pkg/ieee_pkg.egg-info/SOURCES.txt'
+[1.277s] writing manifest file '../../build/ieee_pkg/ieee_pkg.egg-info/SOURCES.txt'
+[1.277s] running build
+[1.277s] running build_py
+[1.277s] copying ieee_pkg/imu.py -> /home/poom/ieee_ws/build/ieee_pkg/build/lib/ieee_pkg
+[1.278s] running install
+[1.278s] running install_lib
+[1.279s] copying /home/poom/ieee_ws/build/ieee_pkg/build/lib/ieee_pkg/imu.py -> /home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg
+[1.279s] byte-compiling /home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg/imu.py to imu.cpython-38.pyc
+[1.280s] running install_data
+[1.281s] running install_egg_info
+[1.282s] removing '/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.282s] Copying ../../build/ieee_pkg/ieee_pkg.egg-info to /home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg-0.0.0-py3.8.egg-info
+[1.283s] running install_scripts
+[1.294s] Installing imu_node script to /home/poom/ieee_ws/install/ieee_pkg/lib/ieee_pkg
+[1.294s] writing list of installed files to '/home/poom/ieee_ws/build/ieee_pkg/install.log'
+[1.310s] Invoked command in '/home/poom/ieee_ws/src/ieee_pkg' returned '0': PYTHONPATH=/home/poom/ieee_ws/build/ieee_pkg/prefix_override:/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ieee_pkg build --build-base /home/poom/ieee_ws/build/ieee_pkg/build install --record /home/poom/ieee_ws/build/ieee_pkg/install.log --single-version-externally-managed

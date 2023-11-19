@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:70 (file):
-  file INSTALL cannot find
-  "/home/poom/ieee_ws/src/Xicro/xicro_pkg/scripts/xicro_node_ieee_ID_1_esp.py":
-  No such file or directory.
-
-[0m

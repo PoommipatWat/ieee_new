@@ -1,0 +1,33 @@
+[1.532s] Invoking command in '/home/poom/ieee_ws/src/ieee_pkg': PYTHONPATH=/home/poom/ieee_ws/build/ieee_pkg/prefix_override:/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ieee_pkg build --build-base /home/poom/ieee_ws/build/ieee_pkg/build install --record /home/poom/ieee_ws/build/ieee_pkg/install.log --single-version-externally-managed
+[1.732s] running egg_info
+[1.733s] creating ../../build/ieee_pkg/ieee_pkg.egg-info
+[1.733s] writing ../../build/ieee_pkg/ieee_pkg.egg-info/PKG-INFO
+[1.733s] writing dependency_links to ../../build/ieee_pkg/ieee_pkg.egg-info/dependency_links.txt
+[1.734s] writing entry points to ../../build/ieee_pkg/ieee_pkg.egg-info/entry_points.txt
+[1.734s] writing requirements to ../../build/ieee_pkg/ieee_pkg.egg-info/requires.txt
+[1.734s] writing top-level names to ../../build/ieee_pkg/ieee_pkg.egg-info/top_level.txt
+[1.748s] writing manifest file '../../build/ieee_pkg/ieee_pkg.egg-info/SOURCES.txt'
+[1.775s] reading manifest file '../../build/ieee_pkg/ieee_pkg.egg-info/SOURCES.txt'
+[1.776s] writing manifest file '../../build/ieee_pkg/ieee_pkg.egg-info/SOURCES.txt'
+[1.776s] running build
+[1.776s] running build_py
+[1.776s] creating /home/poom/ieee_ws/build/ieee_pkg/build
+[1.776s] creating /home/poom/ieee_ws/build/ieee_pkg/build/lib
+[1.776s] creating /home/poom/ieee_ws/build/ieee_pkg/build/lib/ieee_pkg
+[1.776s] copying ieee_pkg/__init__.py -> /home/poom/ieee_ws/build/ieee_pkg/build/lib/ieee_pkg
+[1.776s] running install
+[1.777s] running install_lib
+[1.777s] creating /home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg
+[1.777s] copying /home/poom/ieee_ws/build/ieee_pkg/build/lib/ieee_pkg/__init__.py -> /home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg
+[1.778s] byte-compiling /home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg/__init__.py to __init__.cpython-38.pyc
+[1.778s] running install_data
+[1.779s] creating /home/poom/ieee_ws/install/ieee_pkg/share/ament_index
+[1.779s] creating /home/poom/ieee_ws/install/ieee_pkg/share/ament_index/resource_index
+[1.779s] creating /home/poom/ieee_ws/install/ieee_pkg/share/ament_index/resource_index/packages
+[1.779s] copying resource/ieee_pkg -> /home/poom/ieee_ws/install/ieee_pkg/share/ament_index/resource_index/packages
+[1.779s] copying package.xml -> /home/poom/ieee_ws/install/ieee_pkg/share/ieee_pkg
+[1.779s] running install_egg_info
+[1.780s] Copying ../../build/ieee_pkg/ieee_pkg.egg-info to /home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages/ieee_pkg-0.0.0-py3.8.egg-info
+[1.781s] running install_scripts
+[1.792s] writing list of installed files to '/home/poom/ieee_ws/build/ieee_pkg/install.log'
+[1.814s] Invoked command in '/home/poom/ieee_ws/src/ieee_pkg' returned '0': PYTHONPATH=/home/poom/ieee_ws/build/ieee_pkg/prefix_override:/home/poom/ieee_ws/install/ieee_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ieee_pkg build --build-base /home/poom/ieee_ws/build/ieee_pkg/build install --record /home/poom/ieee_ws/build/ieee_pkg/install.log --single-version-externally-managed

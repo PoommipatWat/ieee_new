@@ -9,8 +9,11 @@ setup.py
 ../../build/ieee_pkg/ieee_pkg.egg-info/top_level.txt
 ../../build/ieee_pkg/ieee_pkg.egg-info/zip-safe
 ieee_pkg/__init__.py
-ieee_pkg/control_ieee_node.py
-launch/ieee.launch.py
+ieee_pkg/camera.py
+ieee_pkg/control.py
+ieee_pkg/imu.py
+ieee_pkg/robot_core.py
+launch/ieee_launch.launch.py
 resource/ieee_pkg
 test/test_copyright.py
 test/test_flake8.py

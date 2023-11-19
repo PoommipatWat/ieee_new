@@ -3,6 +3,7 @@ from setuptools import setup
 import os
 from glob import glob
 
+
 package_name = 'ieee_pkg'
 
 setup(
@@ -13,7 +14,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share',package_name,'launch'),glob('launch/*.launch.py')),
+        (os.path.join('share', package_name), glob("launch/*launch.py")),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,7 +25,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "control_ieee_node = ieee_pkg.control_ieee_node:main",
+            "imu_node = ieee_pkg.imu:main",
+            "camera_node = ieee_pkg.camera:main",
+            "control_node = ieee_pkg.control:main",
+            "robot_core_node = ieee_pkg.robot_core:main",
         ],
     },
 )

@@ -1,3 +1,6 @@
 [console_scripts]
-control_ieee_node = ieee_pkg.control_ieee_node:main
+camera_node = ieee_pkg.camera:main
+control_node = ieee_pkg.control:main
+imu_node = ieee_pkg.imu:main
+robot_core_node = ieee_pkg.robot_core:main
 
